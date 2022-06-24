@@ -73,7 +73,7 @@ session_start();
 				<div class="container">
 					<nav class="navbar navbar-expand-lg navbar-light">
 						<a class="navbar-brand" href="index.html">
-							<img src="assets/img/logo.png" alt="logo">
+							<img src="assets/img/logo.png" width="100" alt="logo">
 						</a>
 						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 							<ul class="navbar-nav m-auto">
