@@ -15,7 +15,7 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 
 --
 -- Database: `lowongan`
@@ -34,7 +34,7 @@ CREATE TABLE `berkas` (
   `id_jenis` int NOT NULL,
   `lokasi` varchar(100) NOT NULL,
   `detail` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `berkas`
@@ -7419,7 +7419,7 @@ INSERT INTO `districts` (`id`, `regency_id`, `name`) VALUES
 CREATE TABLE `jenis_berkas` (
   `id_jen` int NOT NULL,
   `jenis` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `jenis_berkas`
@@ -7498,7 +7498,7 @@ CREATE TABLE `lamar` (
   `uid` varchar(50) NOT NULL,
   `no_lamar` varchar(100) NOT NULL,
   `tgl` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `lamar`
@@ -7550,7 +7550,7 @@ CREATE TABLE `or_biodata` (
   `dari` varchar(12) NOT NULL,
   `sampai` varchar(12) NOT NULL,
   `ket` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `or_biodata`
@@ -7608,7 +7608,7 @@ CREATE TABLE `peng_biodata` (
   `dari` varchar(20) NOT NULL,
   `sampai` varchar(20) NOT NULL,
   `ket` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `peng_biodata`
@@ -7644,7 +7644,7 @@ CREATE TABLE `posisi` (
   `id_posisi` int NOT NULL,
   `uid` varchar(100) NOT NULL,
   `id_job` int NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `posisi`
