@@ -14,7 +14,7 @@
     <meta name="generator" content="Hugo 0.88.1">
     <title>Registrasi</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
