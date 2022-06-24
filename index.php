@@ -55,7 +55,7 @@
 			<div class="container">
 				<div class="section-title text-center">
 					<h2>Pilih Kategori Anda</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p> -->
 				</div>
 
 				<div class="row">
@@ -213,7 +213,7 @@
 							<span>1</span>
 							<i class='flaticon-website'></i>
 							<h3>Daftar & Isi Biodata</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p> -->
 						</div>
 					</div>
 
@@ -222,7 +222,7 @@
 							<span>2</span>
 							<i class='flaticon-recruitment'></i>
 							<h3>Cari Perkerjaan</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p> -->
 						</div>
 					</div>
 
@@ -231,7 +231,7 @@
 							<span>3</span>
 							<i class='flaticon-login'></i>
 							<h3>Lamar</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p> -->
 						</div>
 					</div>
 				</div>
