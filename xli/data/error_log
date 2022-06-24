@@ -1,0 +1,2 @@
+[15-Nov-2021 17:40:04 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/teknisik/lowongan.mitrajasa.com/xli/data/job/list.php on line 34
+[15-Nov-2021 17:40:16 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/teknisik/lowongan.mitrajasa.com/xli/data/job/list.php on line 34
