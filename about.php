@@ -32,9 +32,9 @@
                                 <h2>Bagaimana Kami Memulai</h2>
                             </div>
 
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                            <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p> -->
 
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> -->
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -60,7 +60,7 @@
 							<span>1</span>
 							<i class='flaticon-website'></i>
 							<h3>Daftar & Isi Biodata</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p> -->
 						</div>
 					</div>
 
@@ -69,7 +69,7 @@
 							<span>2</span>
 							<i class='flaticon-recruitment'></i>
 							<h3>Cari Perkerjaan</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p> -->
 						</div>
 					</div>
 
@@ -78,7 +78,7 @@
 							<span>3</span>
 							<i class='flaticon-login'></i>
 							<h3>Lamar</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p> -->
 						</div>
 					</div>
 				</div>
