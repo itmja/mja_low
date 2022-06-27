@@ -7,7 +7,7 @@
                     <h2>Pekerjaan</h2>
                     <ul>
                         <li>
-                            <a href="index.html">Beranda</a>
+                            <a href="index.php">Beranda</a>
                         </li>
                         <li>Pekerjaan</li>
                     </ul>
@@ -31,7 +31,7 @@
 
 				<div class="row">
 				<?php
-                        $sql = "SELECT *,kategori_job.nama_job FROM new_job INNER JOIN kategori_job ON kategori_job.id_job = new_job.id_kjob WHERE status='y'";
+                        $sql = "SELECT *,kategori_job.nama_job,new_job.id_job as id FROM new_job INNER JOIN kategori_job ON kategori_job.id_job = new_job.id_kjob WHERE status='y'";
                         $a = mysqli_query($koneksi, $sql);
                         while ($r = mysqli_fetch_array($a)) {
                     ?>
@@ -41,7 +41,7 @@
 								<div class="col-lg-3">
 									<div class="thumb-img">
 										<a href="job-details.html">
-											<img src="assets/img/company-logo/1.png" alt="company logo">
+											<img src="assets/img/logo.png" alt="company logo">
 										</a>
 									</div>
 								</div>
@@ -49,7 +49,7 @@
 								<div class="col-lg-6">
 									<div class="job-info">
 										<h3>
-											<a href="job-details.html"><?= $r['nama_job'] ?></a>
+											<a href="job-details.php?id=<?= $r['id'] ?>"><?= $r['nama_job'] ?></a>
 										</h3>
 										<ul>
 											
