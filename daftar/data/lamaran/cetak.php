@@ -78,7 +78,7 @@
     <body>
         <div class="row">
             <center>
-                <img src="<?= $tempdir.$id.'.png' ?>" class="mb-4"  width="500" height="500">
+                <img src="<?= $tempdir.$id.$no.'.png' ?>" class="mb-4"  width="500" height="500">
             </center>
             <center>
                 <p class="form-control">
