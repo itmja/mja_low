@@ -8,7 +8,7 @@
                     <h2>Tentang Kami</h2>
                     <ul>
                         <li>
-                            <a href="index.html">Beranda</a>
+                            <a href="index.php">Beranda</a>
                         </li>
                         <li>Tentang Kami</li>
                     </ul>
