@@ -151,10 +151,23 @@
                                             </div>
                                         </div>
                                     </div>
-
+                                    <?php 
+                                        // $_SESSION['uid'] ="Iw0KCJhMrFYMai3AhYxuXBPADDf1";
+                                        if(!isset($_SESSION['uid'])) {
+                                    ?>
+                                    <div class="theme-btn">
+                                        <a href="#" class="default-btn">Lamar</a>
+                                    </div>
+                                    <?php
+                                        }else {
+                                    ?>
                                     <div class="theme-btn">
                                         <a href="daftar/data/func/lamar.php?id=<?php echo $_SESSION['uid']; ?>&job=<?= $id ?>&no=<?= $r['kode_job'] ?>" class="default-btn">Lamar</a>
                                     </div>
+                                    <?php
+                                        }
+                                    ?>
+                                    
                                 </div>
                             </div>
                         </div>
