@@ -2,15 +2,15 @@
         <!-- Navbar Area End -->
 
         <!-- Page Title Start -->
-        <section class="page-title title-bg6">
+        <section class="page-title title-bg1">
             <div class="d-table">
                 <div class="d-table-cell">
                     <h2>Job Details</h2>
                     <ul>
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="index.php">Beranda</a>
                         </li>
-                        <li>Job Details</li>
+                        <li>Lowongan Detail</li>
                     </ul>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                                     </div> -->
 
                                     <div class="details-text">
-                                        <h3>Job Details</h3>
+                                        <h3>Lowongan Detail</h3>
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <table class="table">
@@ -153,9 +153,7 @@
                                     </div>
 
                                     <div class="theme-btn">
-                                        <a href="#" class="default-btn">
-                                            Apply Now
-                                        </a>
+                                        <a href="daftar/data/func/lamar.php?id=<?php echo $_SESSION['uid']; ?>&job=<?= $id ?>&no=<?= $r['kode_job'] ?>" class="default-btn">Lamar</a>
                                     </div>
                                 </div>
                             </div>
