@@ -8,8 +8,7 @@
 									<img src="assets/img/logo.png" alt="logo">
 								</a>
 							</div>
-
-							<p>Platform Recruitment PT. MITRA JUA ABADI</p>
+							<p>PT. MITRA JUA ABADI</p>
 
 							<div class="footer-social">
 								<a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
@@ -25,15 +24,15 @@
 							<h3>For Candidate</h3>
 							<ul>
 								<li>
-									<a href="job-grid.html">
+									<a href="daftar/">
 										<i class='bx bx-chevrons-right bx-tada'></i>
-										Sign In
+										Login
 									</a>
 								</li>
 								<li>
-									<a href="sign-up.html">
+									<a href="daftar/regrister.php">
 										<i class='bx bx-chevrons-right bx-tada'></i>
-										Sign Up
+										Daftar
 									</a>
 								</li>
 							</ul>
@@ -45,19 +44,19 @@
 							<h3>Quick Links</h3>
 							<ul>
 								<li>
-									<a href="index.html">
+									<a href="index.php">
 										<i class='bx bx-chevrons-right bx-tada'></i>
 										Home
 									</a>
 								</li>
 								<li>
-									<a href="about.html">
+									<a href="about.php">
 										<i class='bx bx-chevrons-right bx-tada'></i>
 										About
 									</a>
 								</li>
 								<li>
-									<a href="contact.html">
+									<a href="contact.php">
 										<i class='bx bx-chevrons-right bx-tada'></i>
 										Contact
 									</a>
