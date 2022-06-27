@@ -54,13 +54,13 @@
 		<section class="categories-section pt-100 pb-70">
 			<div class="container">
 				<div class="section-title text-center">
-					<h2>Pilih Kategori Anda</h2>
+					<h2>Kategori Pekerjaan</h2>
 					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p> -->
 				</div>
 
 				<div class="row">
 					<div class="col-lg-3 col-md-4 col-sm-6">
-						<a href="job-list.html">
+						<a href="">
 							<div class="category-card">
 								<i class='flaticon-accounting'></i>
 								<h3>Administrasi</h3>
@@ -70,7 +70,7 @@
 					</div>
 
 					<div class="col-lg-3 col-md-4 col-sm-6">
-						<a href="job-list.html">
+						<a href="">
 							<div class="category-card">
 								<i class='flaticon-worker'></i>
 								<h3>Operator Produksi</h3>
@@ -80,7 +80,7 @@
 					</div>
 
 					<div class="col-lg-3 col-md-4 col-sm-6">
-						<a href="job-list.html">
+						<a href="">
 							<div class="category-card">
 								<i class='flaticon-wrench-and-screwdriver-in-cross'></i>
 								<h3>Maintenence</h3>
@@ -90,7 +90,7 @@
 					</div>
 
 					<div class="col-lg-3 col-md-4 col-sm-6">
-						<a href="job-list.html">
+						<a href="">
 							<div class="category-card">
 								<i class='flaticon-worker'></i>
 								<h3>Supervisor</h3>
@@ -100,7 +100,7 @@
 					</div>
 
 					<div class="col-lg-3 col-md-4 col-sm-6">
-						<a href="job-list.html">
+						<a href="">
 							<div class="category-card">
 								<i class='flaticon-heart'></i>
 								<h3>Cleaning Service</h3>
@@ -110,7 +110,7 @@
 					</div>
 
 					<div class="col-lg-3  col-md-4 col-sm-6">
-						<a href="job-list.html">
+						<a href="">
 							<div class="category-card">
 								<i class='flaticon-worker'></i>
 								<h3>Satuan Pengamanan (SATPAM)</h3>
@@ -120,7 +120,7 @@
 					</div>
 
 					<div class="col-lg-3  col-md-4 col-sm-6 offset-md-2 offset-lg-0">
-						<a href="job-list.html">
+						<a href="">
 							<div class="category-card">
 								<i class='flaticon-wrench-and-screwdriver-in-cross'></i>
 								<h3>Teknisi Mesin</h3>
@@ -130,7 +130,7 @@
 					</div>
 
 					<div class="col-lg-3 col-md-4 col-sm-6">
-						<a href="job-list.html">
+						<a href="">
 							<div class="category-card">
 								<i class='flaticon-wrench-and-screwdriver-in-cross'></i>
 								<h3>Teknisi Listrik</h3>
@@ -147,13 +147,13 @@
 		<section class="job-section pb-70">
 			<div class="container">
 				<div class="section-title text-center">
-					<h2>Pekerjaan yang Mungkin Anda Minati</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
+					<h2>Lowongan Pekerjaan Saat Ini</h2>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p> -->
 				</div>
 
 				<div class="row">
 				<?php
-                        $sql = "SELECT *,kategori_job.nama_job FROM new_job INNER JOIN kategori_job ON kategori_job.id_job = new_job.id_kjob WHERE status='y'";
+                        $sql = "SELECT *,kategori_job.nama_job,new_job.id_job as id FROM new_job INNER JOIN kategori_job ON kategori_job.id_job = new_job.id_kjob WHERE status='y'";
                         $a = mysqli_query($koneksi, $sql);
                         while ($r = mysqli_fetch_array($a)) {
                     ?>
@@ -171,7 +171,7 @@
 								<div class="col-lg-6">
 									<div class="job-info">
 										<h3>
-											<a href="job-details.html"><?= $r['nama_job'] ?></a>
+											<a href="job-details.php?id=<?= $r['id'] ?>"><?= $r['nama_job'] ?></a>
 										</h3>
 										<ul>
 											
