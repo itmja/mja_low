@@ -8,9 +8,9 @@
                     <h2>Contact Us</h2>
                     <ul>
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="index.php">Beranda</a>
                         </li>
-                        <li>Contact Us</li>
+                        <li>Hubungi Kami</li>
                     </ul>
                 </div>
             </div>
