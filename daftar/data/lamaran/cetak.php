@@ -18,11 +18,11 @@
     $codeContents = $url; 
 
     //simpan file qrcode
-    QRcode::png($codeContents, $tempdir.$id.$no.'.png', QR_ECLEVEL_H, 10,4);
+    QRcode::png($codeContents, $tempdir.$no.'.png', QR_ECLEVEL_H, 10,4);
 
 
     // ambil file qrcode
-    $QR = imagecreatefrompng($tempdir.$id.$no.'.png');
+    $QR = imagecreatefrompng($tempdir.$no.'.png');
 
     // memulai menggambar logo dalam file qrcode
     $logo = imagecreatefromstring(file_get_contents($logopath));
@@ -45,7 +45,7 @@
     imagecopyresampled($QR, $logo, $QR_width/2.3, $QR_height/2.3, 0, 0, $logo_qr_width, $logo_qr_height, $logo_width, $logo_height);
 
     // Simpan kode QR lagi, dengan logo di atasnya
-    imagepng($QR,$tempdir.$id.$no.'.png');
+    imagepng($QR,$tempdir.$no.'.png');
     
     // menampilkan file qrcode 
     // echo '<div align="center"><h2>Create QR Code With Logo PHP</h2>';
@@ -78,7 +78,7 @@
     <body>
         <div class="row">
             <center>
-                <img src="<?= $tempdir.$id.$no.'.png' ?>" class="mb-4"  width="500" height="500">
+                <img src="<?= $tempdir.$no.'.png' ?>" class="mb-4"  width="500" height="500">
             </center>
             <center>
                 <p class="form-control">
