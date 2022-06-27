@@ -25,8 +25,8 @@
 		<section class="job-section pb-70">
 			<div class="container">
 				<div class="section-title text-center">
-					<h2>Pekerjaan yang Mungkin Anda Minati</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
+					<h2>Lowongan Pekerjaan Saat Ini</h2>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p> -->
 				</div>
 
 				<div class="row">
