@@ -21,7 +21,7 @@ if ($cekda->num_rows > 0) {
 
         $cek =  mysqli_query($koneksi, "SELECT * FROM lamar WHERE uid = '$id' AND id_job='$job'");
         if ($cek->num_rows > 0) {
-            header("Location:../job.php?msg=msg");
+            header("Location:../index.php?msg=msg");
 
         } else {
             $lamar = mysqli_query($koneksi,"INSERT INTO `lamar` (`id_lamar`, `id_job`, `uid`, `no_lamar`) VALUES (NULL, '$job', '$id', '$nomor');");
