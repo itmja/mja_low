@@ -1,6 +1,5 @@
         
         <!-- Portfolio Modal 2-->
-        <p>© IT Specialist <a href="https://mitrajuaabadi.co.id/" target="_blank">PT. MITRA JUA ABADI</a></p>
 <script src="../../assets/dist/js/bootstrap.bundle.min.js"></script>
 
       <script src="offcanvas.js"></script>
@@ -77,6 +76,8 @@
         }
       
       ?>
-      
+      <center>
+      <p>© IT Specialist <a href="https://mitrajuaabadi.co.id/" target="_blank">PT. MITRA JUA ABADI</a></p>
+      </center>
   </body>
 </html>
