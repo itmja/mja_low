@@ -149,17 +149,17 @@ if ($cekda->num_rows > 0) {
                 }
                 
 
-                header('Location: ../job.php');
+                header('Location: ../upload.php');
             } else {
             
-            header('Location: ../job.php');
+            header('Location: ../upload.php');
             }
         }
     } else {
-        header("Location:../job.php?msg2=msg2");
+        header("Location:../upload.php?msg2=msg2");
     }  
 } else {
-    header("Location:../job.php?msg1=msg1");
+    header("Location:../upload.php?msg1=msg1");
 
 
 }
