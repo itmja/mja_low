@@ -1,6 +1,7 @@
 <?php 
 
 include("head.php"); ?>
+
 <main class="container">
   <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
     <img class="me-3" src="../../assets/img/logo.png" alt="" width="48" height="38">
