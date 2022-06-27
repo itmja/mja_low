@@ -35,14 +35,14 @@
 								</div>
 							</form> -->
 
-							<ul class="keyword">
+							<!-- <ul class="keyword">
 								<li>Trending Keywords:</li>
 								<li><a href="#">Automotive,</a></li>
 								<li><a href="#">Education,</a></li>
 								<li><a href="#">Health</a></li>
 								<li>and</li>
 								<li><a href="#">Care Engineering</a></li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 				</div>
@@ -64,7 +64,7 @@
 							<div class="category-card">
 								<i class='flaticon-accounting'></i>
 								<h3>Administrasi</h3>
-								<p>301 open position</p>
+								<!-- <p>301 open position</p> -->
 							</div>
 						</a>
 					</div>
@@ -74,7 +74,7 @@
 							<div class="category-card">
 								<i class='flaticon-worker'></i>
 								<h3>Operator Produksi</h3>
-								<p>210 open position</p>
+								<!-- <p>210 open position</p> -->
 							</div>
 						</a>
 					</div>
@@ -84,7 +84,7 @@
 							<div class="category-card">
 								<i class='flaticon-wrench-and-screwdriver-in-cross'></i>
 								<h3>Maintenence</h3>
-								<p>281 open position</p>
+								<!-- <p>281 open position</p> -->
 							</div>
 						</a>
 					</div>
@@ -94,7 +94,7 @@
 							<div class="category-card">
 								<i class='flaticon-worker'></i>
 								<h3>Supervisor</h3>
-								<p>122 open position</p>
+								<!-- <p>122 open position</p> -->
 							</div>
 						</a>
 					</div>
@@ -104,7 +104,7 @@
 							<div class="category-card">
 								<i class='flaticon-heart'></i>
 								<h3>Cleaning Service</h3>
-								<p>335 open position</p>
+								<!-- <p>335 open position</p> -->
 							</div>
 						</a>
 					</div>
@@ -114,7 +114,7 @@
 							<div class="category-card">
 								<i class='flaticon-worker'></i>
 								<h3>Satuan Pengamanan (SATPAM)</h3>
-								<p>401 open position</p>
+								<!-- <p>401 open position</p> -->
 							</div>
 						</a>
 					</div>
@@ -124,7 +124,7 @@
 							<div class="category-card">
 								<i class='flaticon-wrench-and-screwdriver-in-cross'></i>
 								<h3>Teknisi Mesin</h3>
-								<p>100 open position</p>
+								<!-- <p>100 open position</p> -->
 							</div>
 						</a>
 					</div>
@@ -134,7 +134,7 @@
 							<div class="category-card">
 								<i class='flaticon-wrench-and-screwdriver-in-cross'></i>
 								<h3>Teknisi Listrik</h3>
-								<p>201 open position</p>
+								<!-- <p>201 open position</p> -->
 							</div>
 						</a>
 					</div>
@@ -163,7 +163,7 @@
 								<div class="col-lg-3">
 									<div class="thumb-img">
 										<a href="job-details.html">
-											<img src="assets/img/company-logo/1.png" alt="company logo">
+											<img src="assets/img/logo.png" alt="company logo">
 										</a>
 									</div>
 								</div>
