@@ -46,19 +46,19 @@
 								<li>
 									<a href="index.php">
 										<i class='bx bx-chevrons-right bx-tada'></i>
-										Home
+										Beranda
 									</a>
 								</li>
 								<li>
 									<a href="about.php">
 										<i class='bx bx-chevrons-right bx-tada'></i>
-										About
+										Tentang Kami
 									</a>
 								</li>
 								<li>
 									<a href="contact.php">
 										<i class='bx bx-chevrons-right bx-tada'></i>
-										Contact
+										Kontak
 									</a>
 								</li>
 							</ul>
