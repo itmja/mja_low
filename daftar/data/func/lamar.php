@@ -26,6 +26,8 @@ if ($cekda->num_rows > 0) {
         } else {
             $lamar = mysqli_query($koneksi,"INSERT INTO `lamar` (`id_lamar`, `id_job`, `uid`, `no_lamar`) VALUES (NULL, '$job', '$id', '$nomor');");
             if($lamar) { 
+                $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+                $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                 include "phpqrcode/qrlib.php"; 
                 $tempdir = "temp/"; //Nama folder tempat menyimpan file qrcode
                 if (!file_exists($tempdir)) //Buat folder bername temp
@@ -35,7 +37,7 @@ if ($cekda->num_rows > 0) {
                 $logopath="../../../assets/img/logo.png";
 
             //isi qrcode jika di scan
-                $codeContents = "http://localhost/lowongan/lamar.php?id=".$id."&job=".$job; 
+                $codeContents = $url; 
 
                 //simpan file qrcode
                 QRcode::png($codeContents, $tempdir.$id.$job.'.png', QR_ECLEVEL_H, 10,4);
@@ -75,9 +77,9 @@ if ($cekda->num_rows > 0) {
                     $mail->SMTPAuth = "true";
                     $mail->SMTPSecure = "tls";
                     $mail->Port = "587";
-                    $mail->Username = "noreply@mitrajasa.com";
+                    $mail->Username = "it.specialist@mitrajasa.com";
                     $mail->Password = "JaWaRa321";
-                    $mail->setFrom($email);
+                    $mail->setFrom("lowongan.mitrajasa.com");
                     $mail->addAddress($email);
                     $mail->addAttachment($tempdir.$id.$job.'.png', $no.'.png');
                     $mail->isHTML(true);                                  // Set email format to HTML
